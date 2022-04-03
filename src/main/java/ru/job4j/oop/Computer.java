@@ -6,8 +6,7 @@ public class Computer {
     private int ssd;
     private String cpu;
 
-    public Computer(){
-
+    public Computer() {
     }
 
     public Computer(boolean multiMonitor, int ssd, String cpu) {
