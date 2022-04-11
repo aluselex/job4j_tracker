@@ -15,6 +15,7 @@ public class PointTest {
         double dist = a.distance(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
+
     @Test
     public void when02to45then5() {
         Point a = new Point(0, 2);
@@ -23,6 +24,7 @@ public class PointTest {
         double dist = a.distance(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
+
     @Test
     public void when00to01then1() {
         Point a = new Point(0, 0);
@@ -31,6 +33,7 @@ public class PointTest {
         double dist = a.distance(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
+
     @Test
     public void when00to11then1dot41() {
         Point a = new Point(0, 0);
@@ -39,6 +42,4 @@ public class PointTest {
         double dist = a.distance(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
-
-
 }
