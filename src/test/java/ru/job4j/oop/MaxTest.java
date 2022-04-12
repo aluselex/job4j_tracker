@@ -10,7 +10,7 @@ public class MaxTest {
         int first = 1;
         int second = 2;
         int expected = 2;
-        int out = Max.max(first,second);
+        int out = Max.max(first, second);
         Assert.assertEquals(expected, out);
     }
 
@@ -21,7 +21,7 @@ public class MaxTest {
         int third = 3;
         int fourth = 4;
         int expected = 4;
-        int out = Max.max(first,second,third,fourth);
+        int out = Max.max(first, second, third, fourth);
         Assert.assertEquals(expected, out);
     }
 
@@ -32,7 +32,7 @@ public class MaxTest {
         int third = 3;
         int fourth = 41;
         int expected = 101;
-        int out = Max.max(first,second,third,fourth);
+        int out = Max.max(first, second, third, fourth);
         Assert.assertEquals(expected, out);
     }
 }
