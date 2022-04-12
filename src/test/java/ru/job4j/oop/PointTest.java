@@ -42,4 +42,22 @@ public class PointTest {
         double dist = a.distance(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
+
+    @Test
+    public void when403to000then5() {
+        Point a = new Point(4, 0, 3);
+        Point b = new Point(0, 0, 0);
+        double expected = 5;
+        double dist = a.distance3d(b);
+        Assert.assertEquals(expected, dist, 0.01);
+    }
+
+    @Test
+    public void when113to238then5dot47() {
+        Point a = new Point(1, 1, 3);
+        Point b = new Point(2, 3, 8);
+        double expected = 5.47;
+        double dist = a.distance3d(b);
+        Assert.assertEquals(expected, dist, 0.01);
+    }
 }
