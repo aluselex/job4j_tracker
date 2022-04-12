@@ -3,9 +3,6 @@ package ru.job4j.oop;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.hamcrest.Matchers.closeTo;
-import static org.junit.Assert.*;
-
 public class MaxTest {
 
     @Test
@@ -38,6 +35,4 @@ public class MaxTest {
         int out = Max.max(first,second,third,fourth);
         Assert.assertEquals(expected, out);
     }
-
-
 }
