@@ -12,13 +12,10 @@ public class Triangle {
     }
 
     public double semiPerimeter(double a, double b, double c) {
-        return (first.distance(second) + second.distance(third) + first.distance(third)) / 2;
+        return (a + b + c) / 2;
     }
 
     public boolean exist(double ab, double bc, double ac) {
-        ab = first.distance(second);
-        bc = second.distance(third);
-        ac = first.distance(third);
         return ab + ac > bc && ab + bc > ac && ac + bc > ab;
     }
 
