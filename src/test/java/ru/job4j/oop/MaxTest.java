@@ -6,7 +6,7 @@ import org.junit.Test;
 public class MaxTest {
 
     @Test
-    public void whenF1S2() {
+    public void whenSecond() {
         int first = 1;
         int second = 2;
         int expected = 2;
@@ -15,7 +15,7 @@ public class MaxTest {
     }
 
     @Test
-    public void whenF1S2T3F4() {
+    public void whenFourth() {
         int first = 1;
         int second = 2;
         int third = 3;
@@ -26,7 +26,7 @@ public class MaxTest {
     }
 
     @Test
-    public void whenF101S12T3F41() {
+    public void whenFirst() {
         int first = 101;
         int second = 12;
         int third = 3;
