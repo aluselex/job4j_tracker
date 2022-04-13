@@ -15,6 +15,16 @@ public class MaxTest {
     }
 
     @Test
+    public void whenThird() {
+        int first = 1;
+        int second = 2;
+        int third = 50;
+        int expected = 50;
+        int out = Max.max(first, second, third);
+        Assert.assertEquals(expected, out);
+    }
+
+    @Test
     public void whenFourth() {
         int first = 1;
         int second = 2;
